@@ -1,0 +1,68 @@
+
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in,includefoot]{geometry}
+
+\usepackage{fancyhdr,setspace}
+
+%\pagestyle{fancy}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE,LO]{\projecttitle}
+\fancyfoot[C]{}
+
+% Color
+\usepackage{xcolor}
+\definecolor{pennblue}{cmyk}{1,.65,0,.3}
+\definecolor{pennred}{cmyk}{0,1,.65,.34}
+
+\newcommand{\todo}[1]{\textit{\textcolor{red}{[TODO]: #1}}}
+\newcommand{\amn}[1]{\textit{\textcolor{blue}{[AMN]: #1}}}
+\newcommand{\ap}[1]{\textit{\textcolor{blue}{[AP]: #1}}}
+\newcommand{\gnn}[1]{\textit{\textcolor{blue}{[GNN]: #1}}}
+\newcommand{\rjs}[1]{\textit{\textcolor{blue}{[RJS]: #1}}}
+\newcommand{\sk}[1]{\textit{\textcolor{blue}{[SK]: #1}}}
+
+
+\newcommand{\PAR}[1]{\par\smallskip\noindent\textbf{#1}}
+
+\newcommand{\hidden}[1]{}
+
+\usepackage{alltt}
+\usepackage{wrapfig}
+\usepackage{cmtt}
+\usepackage{paralist}
+\usepackage{lastpage}
+\usepackage{times}
+\usepackage{tikz}
+\usepackage{balance}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{algorithm,algpseudocode}
+\usepackage{xspace}
+\usepackage{pgfgantt}
+\usepackage{afterpage}
+\usepackage{soul}
+
+\usepackage{enumitem}
+\newcommand{\subscript}[2]{$#1 _ #2$}
+
+\usepackage{graphicx}
+\graphicspath{{./figures/}{../figures/}}
+
+\usepackage[colorlinks=true,linkcolor={pennblue},citecolor={pennred},urlcolor={pennblue}]{hyperref}
+\usepackage{url}
+
+\usepackage{amsthm}
+
+
+\usepackage{booktabs}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+
+\usepackage{listings}
+\usepackage{multicol}
+
+
+\usepackage{url,fullpage,cite,epsfig,xspace,mathpazo,kpfonts,multirow,dcolumn,colortbl,amsmath,amssymb,amsthm,wasysym,pifont,xspace}
+%\usepackage[hang,small,bf]{caption}
+\usepackage[T1]{fontenc}
