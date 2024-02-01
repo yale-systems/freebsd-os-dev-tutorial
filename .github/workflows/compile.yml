@@ -7,7 +7,7 @@ on:
    pull_request:
 
 env:
-  doc_name: freebsd-os-dev-tutorial
+  doc_name: output/main
 
 jobs:
   build:
